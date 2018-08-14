@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightbluesky"
+    tools:context="com.example.eladw.belajarabjad.Huruf2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text=" " />
+
+    <ImageButton
+        android:id="@+id/btni"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/btnm"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_toLeftOf="@+id/btnj"
+        android:layout_toStartOf="@+id/btnj"
+        android:background="@null"
+        app:srcCompat="@drawable/ip" />
+
+    <ImageButton
+        android:id="@+id/btnj"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/btni"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2"
+        android:background="@null"
+        app:srcCompat="@drawable/jp" />
+
+    <ImageButton
+        android:id="@+id/btnk"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/btno"
+        android:layout_alignRight="@+id/btno"
+        android:layout_alignTop="@+id/btnj"
+        android:background="@null"
+        app:srcCompat="@drawable/kp" />
+
+    <ImageButton
+        android:id="@+id/btnl"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/btnp"
+        android:layout_alignRight="@+id/btnp"
+        android:layout_alignTop="@+id/btnk"
+        android:background="@null"
+        app:srcCompat="@drawable/lp" />
+
+    <ImageButton
+        android:id="@+id/btnm"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/back"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_toLeftOf="@+id/btnj"
+        android:layout_toStartOf="@+id/btnj"
+        android:background="@null"
+        app:srcCompat="@drawable/mp" />
+
+    <ImageButton
+        android:id="@+id/btnn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/btnm"
+        android:layout_toEndOf="@+id/btnm"
+        android:layout_toRightOf="@+id/btnm"
+        android:background="@null"
+        app:srcCompat="@drawable/np" />
+
+    <ImageButton
+        android:id="@+id/btno"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/btnn"
+        android:layout_toEndOf="@+id/btnn"
+        android:layout_toRightOf="@+id/btnn"
+        android:background="@null"
+        app:srcCompat="@drawable/op" />
+
+    <ImageButton
+        android:id="@+id/btnp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/btno"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_toEndOf="@+id/btno"
+        android:layout_toRightOf="@+id/btno"
+        android:background="@null"
+        app:srcCompat="@drawable/pp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/tepi"
+        android:id="@+id/imageView2" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/back"
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/back"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/next"
+        android:background="@null"/>
+
+</RelativeLayout>
